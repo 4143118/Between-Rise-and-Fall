@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ceb15f85-cae9-4e61-86a3-71ab9eb9bcff" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/Between-Rise-and-Fall.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/su-shi-website/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/su-shi-website/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/su-shi-website/style.css" afterDir="false" />
-    </list>
+    <list default="true" id="ceb15f85-cae9-4e61-86a3-71ab9eb9bcff" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -70,7 +61,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1792852037414</updated>
-      <workItem from="1792852038428" duration="2228000" />
+      <workItem from="1792852038428" duration="2596000" />
     </task>
     <servers />
   </component>
