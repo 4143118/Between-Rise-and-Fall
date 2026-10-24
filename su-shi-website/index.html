@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Get to know Su Shi beyond his poetry. An illustrated journey between rise and fall, exile and the pleasures of everyday life.">
+  <title>Between Rise &amp; Fall — Su Shi</title>
+  <link rel="preload" as="image" href="assets/sea.webp">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="reading-progress" aria-hidden="true"><div></div></div>
+  <main>
+    <!--The background lingers, and the title shrinks and fades out as you scroll. -->
+    <section class="hero scroll-scene" id="beginning" aria-labelledby="title">
+      <div class="sticky-screen">
+        <img class="full-image" src="assets/sea.webp" alt="A vast blue-green sea, distant mountains and Su Shi standing on a rocky shore.">
+        <div class="hero-shade"></div>
+        <div class="hero-copy">
+          <h1 id="title">Between<br>Rise &amp; Fall</h1>
+          <p>Get to know Su Shi beyond his poetry.</p>
+        </div>
+        <a class="scroll-cue" href="#journey" aria-label="Scroll to Su Shi’s story"><span></span></a>
+      </div>
+    </section>
+
+    <!-- Fixed stage. The text box was moved upwards, and the road from the Imperial Palace to the Rain Road was
+    horizontally unveiled. -->
+    <section class="journey scroll-scene" id="journey" aria-label="From the imperial court to exile">
+      <div class="sticky-screen">
+        <img class="full-image palace-image" src="assets/palace.webp" alt="Su Shi in a red official robe in a Northern
+        Song palace courtyard.">
+        <img class="full-image rain-image" src="assets/rain.webp" alt="Su Shi in a grey robe on a rain-soaked mountain road.">
+        <article class="narration palace-copy">
+          <h2>My name is<br><strong>Su Shi.</strong></h2>
+          <p>You may know my poems. I was also an official.</p>
+          <p>Once, my writing won recognition, and my name reached the imperial court.</p>
+          <p>I had a voice in affairs of state, and so much I hoped to achieve.</p>
+        </article>
+        <article class="narration rain-copy">
+          <h2>But the road did<br>not keep rising.</h2>
+          <p>My views brought me into conflict with those in power.</p>
+          <p>The words that had once earned me recognition became grounds for accusation. I was arrested, questioned,
+            and stripped of my position.</p>
+          <p>The future I had imagined suddenly felt out of reach. I had wanted to serve the country. Now, I was
+            struggling to find my own place in it.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- 3 main exile place -->
+    <section class="exile" aria-labelledby="exile-title">
+      <h2 id="exile-title">I’m always on the way to<br>exile...</h2>
+      <div class="places">
+        <article class="place"><h3><span lang="zh-Hans">黄州</span><span>Huang Zhou</span></h3>
+          <img src="assets/huangzhou.webp" alt="A riverside pavilion and willows in Huangzhou." loading="lazy"></article>
+        <article class="place"><h3><span lang="zh-Hans">惠州</span><span>Hui Zhou</span></h3>
+          <img src="assets/huizhou.webp" alt="A red-roofed gate with stone arches in Huizhou." loading="lazy"></article>
+        <article class="place"><h3><span lang="zh-Hans">儋州</span><span>Dan Zhou</span></h3>
+          <img src="assets/danzhou.webp" alt="A multi-storey traditional tower surrounded by greenery." loading="lazy"></article>
+      </div>
+      <p class="life-goes-on">Life has to go on</p>
+    </section>
+
+    <!-- The sticky on the left image remains in place, while the text box on the right moves up along with the page normally -->
+    <section class="split hainan" id="hainan" aria-labelledby="hainan-title">
+      <div class="split-visual"><img src="assets/hainan.webp" alt="Su Shi outside a thatched cottage on the Hainan coast." loading="lazy"></div>
+      <article class="split-copy">
+        <h2 id="hainan-title"><span lang="zh-Hans">海南</span> Hai Nan</h2>
+        <p>My third son, Su Guo, had come with me to Hainan. Together, we had to make a life here.</p>
+        <p>Where would we live? What would we eat? What would we do if we fell ill? These questions felt more urgent than the distant court.</p>
+        <p>With help from local people, we slowly settled in. Faces became familiar. We began to notice things we had never known before.</p>
+        <p>Then, one day, someone brought us oysters...</p>
+      </article>
+    </section>
+
+    <!-- The text is on the left and the picture of oysters is on the right -->
+    <section class="split first-taste" aria-labelledby="taste-title">
+      <article class="split-copy">
+        <h2 id="taste-title">One First Taste</h2>
+        <p>Two days before the winter solstice, local people brought us oysters.</p>
+        <p>We opened the shells and gathered several measures of flesh and juice. Add water. A little wine. Let them cook together.</p>
+        <p>Then, one mouthful.</p>
+        <p>So delicious. I had never tasted anything quite like it. I took some of the larger oysters and roasted them
+          over the fire. Hot from the embers, eaten just like that. Even better than boiled.</p>
+      </article>
+      <div class="split-visual"><img src="assets/oysters.webp" alt="A close-up of freshly opened oysters." loading="lazy"></div>
+    </section>
+
+    <!--The background of the paper and the text are respectively enlarged synchronously according to the scrolling progress -->
+    <section class="secret scroll-scene" aria-labelledby="secret-title">
+      <div class="sticky-screen">
+        <img class="full-image letter-image" src="assets/letter.webp" alt="An ivory sheet of paper on a Song dynasty
+        writing desk, with a brush and inkstone." loading="lazy">
+        <article class="secret-copy">
+          <h2 id="secret-title">Keep it a Secret</h2>
+          <p>I could not resist writing about such a meal. But I kept reminding Su Guo of one important thing.<br>Do not tell anyone.</p>
+          <p>If those gentlemen in the north heard how delicious the oysters were here, they might all compete to follow
+            my example. And ask to be exiled to Hainan.</p>
+          <p>Then what? They would come here and take a share of my oysters!</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- The background is not zoomed in; only the entire text part is gradually enlarged. -->
+    <section class="ending scroll-scene" aria-labelledby="ending-title">
+      <div class="sticky-screen">
+        <img class="full-image supper-image" src="assets/supper.webp" alt="Su Shi enjoying warm oysters and wine with Su
+         Guo by lantern light." loading="lazy">
+        <div class="ending-shade"></div>
+        <article class="ending-copy">
+          <h2 id="ending-title">Enjoy The<br>Moment</h2>
+          <p>Tomorrow, there would still be things to worry about. But tonight, the oysters were warm, and the wine was
+            good. I called Su Guo over. Come, eat while they’re hot. The rest could wait until morning.</p>
+        </article>
+        <a class="restart" href="#beginning" aria-label="Return to the beginning">↑ <span>Back to the beginning</span></a>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
