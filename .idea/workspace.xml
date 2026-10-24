@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ceb15f85-cae9-4e61-86a3-71ab9eb9bcff" name="Changes" comment="" />
+    <list default="true" id="ceb15f85-cae9-4e61-86a3-71ab9eb9bcff" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/su-shi-website/assets/bird.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/su-shi-website/assets/fire.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/su-shi-website/assets/paper.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/su-shi-website/assets/rain.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/su-shi-website/assets/sea.wav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/su-shi-website/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/su-shi-website/script.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,6 +51,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/su-shi-website/assets" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/.idea" />
     </key>
@@ -61,7 +70,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1792852037414</updated>
-      <workItem from="1792852038428" duration="2596000" />
+      <workItem from="1792852038428" duration="5441000" />
     </task>
     <servers />
   </component>
