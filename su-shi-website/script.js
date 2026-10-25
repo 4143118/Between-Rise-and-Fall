@@ -325,7 +325,7 @@ window.addEventListener("pointerdown", startStoryAudio, {
   passive: true
 });
 
-window.addEventListener("keydown", startStoryAudio);
+window.addEventListener("keydown", startStoryAudio)
 
 
 function scheduleStorySoundUpdate() {
